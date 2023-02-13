@@ -7,12 +7,12 @@ const About = () => {
       style={{ backgroundImage: `url(${Bg})` }}
       className="w-full h-full px-5 pb-10 pt-6 bg-no-repeat bg-cover md:px-48 md:h-screen"
     >
-      <div className="flex justify-center text-3xl md-6 py-10 font-semibold md:text-5xl md:mb-12">
+      <div className="w-full flex justify-center text-3xl md-6 py-10 font-semibold md:text-5xl md:mb-12">
         <h1>ABOUT ME</h1>
       </div>
 
-      <div className="grid gap-y-7 bg-white/60 p-5 text-center md:grid-cols-2 md:text-start md:gap-x-10">
-        <div className="w-96  space-y-5">
+      <div className="w-full grid gap-y-7 bg-white/60 p-5 text-center md:grid-cols-2 md:text-start md:gap-x-10">
+        <div className="w-full space-y-5 md:w-96">
           <h3 className="text-2xl font-semibold">
             Hi, I'm Mike, Nice to meet you.
           </h3>

@@ -7,9 +7,9 @@ import Link from "../../../components/layout/projects/minecraft/Link";
 const Minecraft = () => {
   return (
     <div className="bg-gallery-100">
-      <div className="fixed top-0 left-0 z-30 w-full md:top-1/2 md:left-4 md:-translate-y-1/2 md:w-32">
+      <header className="fixed top-0 left-0 z-30 w-full md:top-1/2 md:left-4 md:-translate-y-1/2 md:w-32">
         <Navbar />
-      </div>
+      </header>
       <main className=" w-full h-full">
         <Hero
           title="Minecraft Website Clone"

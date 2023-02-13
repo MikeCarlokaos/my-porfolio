@@ -9,7 +9,7 @@ const Hero = () => {
           <h1 className="text-4xl font-['Orbitron'] text-center md:text-5xl">
             Hi, I'm <span className="text-sunglow-500">Mike Carlo Gonzaga</span>
           </h1>
-          <p className="text-lg w-[500px] text-center px-5 md:text-2xl md:px-0">
+          <p className="w-full text-lg text-center px-5 md:text-2xl md:px-0 md:w-[500px]">
             A Frontend focused Web Developer building neat and simple yet
             responsive websites
           </p>
