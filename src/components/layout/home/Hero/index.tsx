@@ -17,7 +17,7 @@ const Hero = () => {
             <HashLink
               smooth
               to="/#portfolio"
-              className="bg-sunglow-500 px-10 py-2 text-xl text-black font-semibold uppercase tracking-wide rounded-lg"
+              className="bg-sunglow-500 px-10 py-2 text-xl text-black font-semibold uppercase tracking-wide rounded-lg transition duration-300 ease-in-out hover:border-2 hover:border-sunglow-500 hover:shadow-inner hover:shadow-sunglow-500 hover:bg-black/80 hover:text-sunglow-500 hover:font-bold"
             >
               Portfolio
             </HashLink>

@@ -56,7 +56,7 @@ const Link = () => {
                 href="https://flicker-website-clone.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-sunglow-500 px-9 py-2 text-lg text-black font-semibold uppercase tracking-wide rounded-lg"
+                className="bg-sunglow-500 px-9 py-2 text-lg text-black font-semibold uppercase tracking-wide rounded-lg transition duration-300 ease-in-out hover:shadow-inner hover:shadow-sunglow-500 hover:bg-black/70 hover:text-sunglow-500 hover:font-bold"
               >
                 Live Link
               </a>

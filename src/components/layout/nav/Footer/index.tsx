@@ -65,7 +65,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-3 text-center">
-        <p> &#169; Copyright {dateYear}. Made by Mike Carlo Gonzaga</p>
+        <p>
+          {" "}
+          &#169; Copyright {dateYear}. Made by{" "}
+          <a href="/" className="underline hover:text-sunglow-500">
+            Mike Carlo Gonzaga
+          </a>
+        </p>
       </div>
     </section>
   );

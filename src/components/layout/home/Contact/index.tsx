@@ -25,7 +25,7 @@ const Contact = () => {
         </span>
 
         <ul className=" py-10 grid grid-cols-3 items-center justify-items-center md:px-32">
-          <li>
+          <li className="group">
             <a
               href="https://web.facebook.com/kaos.vioge"
               target="_blank"
@@ -33,10 +33,12 @@ const Contact = () => {
               className="flex flex-col items-center gap-y-3"
             >
               <img src={facebookIcon} alt="Facebook" className="w-10 h-10" />
-              <span className="text-lg font-semibold capitalize">facebook</span>
+              <span className="text-lg font-semibold capitalize group-hover:text-xl group-hover:font-bold">
+                facebook
+              </span>
             </a>
           </li>
-          <li>
+          <li className="group">
             <a
               href="https://www.linkedin.com/in/mike-carlo-gonzaga-1332ab256/k"
               target="_blank"
@@ -44,10 +46,12 @@ const Contact = () => {
               className="flex flex-col items-center gap-y-3"
             >
               <img src={linkedinIcon} alt="Linkedin" className="w-10 h-10" />
-              <span className="text-lg font-semibold capitalize">linkedin</span>
+              <span className="text-lg font-semibold capitalize group-hover:text-xl group-hover:font-bold">
+                linkedin
+              </span>
             </a>
           </li>
-          <li>
+          <li className="group">
             <a
               href="https://twitter.com/ViogeKaos"
               target="_blank"
@@ -55,7 +59,9 @@ const Contact = () => {
               className="flex flex-col items-center gap-y-3"
             >
               <img src={twitterIcon} alt="Twitter" className="w-10 h-10" />
-              <span className="text-lg font-semibold capitalize">twitter</span>
+              <span className="text-lg font-semibold capitalize group-hover:text-xl group-hover:font-bold">
+                twitter
+              </span>
             </a>
           </li>
         </ul>

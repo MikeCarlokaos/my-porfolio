@@ -26,7 +26,7 @@ const Hero = ({ title, link }: HeroProps) => {
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-sunglow-500 px-12 py-2 text-xl text-black font-semibold uppercase tracking-wide rounded-lg"
+              className="bg-sunglow-500 px-12 py-2 text-xl text-black font-semibold uppercase tracking-wide rounded-lg transition duration-300 ease-in-out hover:shadow-inner hover:shadow-sunglow-500 hover:bg-black/70 hover:text-sunglow-500 hover:font-bold"
             >
               Live Link
             </a>
