@@ -17,9 +17,9 @@ const Hero = ({ title, link }: HeroProps) => {
           <div className="w-full h-full flex flex-col items-center justify-center gap-y-5 md:gap-y-12 bg-white/60">
             <h3 className="text-4xl font-semibold md:text-6xl">{title}</h3>
             <p className="w-full font-semibold px-2 md:w-[800px] md:text-xl md:px-0">
-              This page contains the case study of {title}
-              which includes the Project Overview, Tools Used and Live Links to
-              the official product.
+              This page contains the case study of {title} which includes the
+              Project Overview, Tools Used and Live Links to the official
+              product.
             </p>
 
             <a
