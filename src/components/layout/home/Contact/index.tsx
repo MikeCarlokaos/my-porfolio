@@ -28,6 +28,8 @@ const Contact = () => {
           <li>
             <a
               href="https://web.facebook.com/kaos.vioge"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex flex-col items-center gap-y-3"
             >
               <img src={facebookIcon} alt="Facebook" className="w-10 h-10" />
@@ -37,6 +39,8 @@ const Contact = () => {
           <li>
             <a
               href="https://www.linkedin.com/in/mike-carlo-gonzaga-1332ab256/k"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex flex-col items-center gap-y-3"
             >
               <img src={linkedinIcon} alt="Linkedin" className="w-10 h-10" />
@@ -46,6 +50,8 @@ const Contact = () => {
           <li>
             <a
               href="https://twitter.com/ViogeKaos"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex flex-col items-center gap-y-3"
             >
               <img src={twitterIcon} alt="Twitter" className="w-10 h-10" />
