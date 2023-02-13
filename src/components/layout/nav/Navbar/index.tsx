@@ -1,4 +1,7 @@
-import { Home, User, BookOpen, Mail } from "ts-react-feather-icons";
+import home from "../../../../assets/icons/home.svg";
+import user from "../../../../assets/icons/user.svg";
+import book from "../../../../assets/icons/book-open.svg";
+import mail from "../../../../assets/icons/mail.svg";
 import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
@@ -7,7 +10,7 @@ const Navbar = () => {
       <ul className="w-full h-full grid grid-cols-4 items-center justify-items-center gap-5 md:grid-cols-1">
         <li className="group">
           <a href="/" className="relative hover:text-red-500">
-            <Home />
+            <img src={home} alt="Home" />
             <span className="hidden absolute top-10 left-1/2 -translate-x-1/2 bg-sunglow-500 px-5 py-3 rounded transition duration-700 ease-in-out group-hover:block md:top-1/2 md:-translate-y-1/2 md:left-6 md:-translate-x-0">
               HOME
             </span>
@@ -19,7 +22,7 @@ const Navbar = () => {
             to="/#about"
             className="relative group-hover:text-red-500"
           >
-            <User />
+            <img src={user} alt="User" />
             <span className="hidden absolute top-10 left-1/2 -translate-x-1/2 bg-sunglow-500 px-5 py-3 rounded transition duration-700 ease-in-out group-hover:block md:top-1/2 md:-translate-y-1/2 md:left-6 md:-translate-x-0">
               ABOUT
             </span>
@@ -31,7 +34,7 @@ const Navbar = () => {
             to="/#portfolio"
             className="relative group-hover:text-red-500"
           >
-            <BookOpen />
+            <img src={book} alt="Portfolio" />
             <span className="hidden absolute top-10 left-1/2 -translate-x-1/2 bg-sunglow-500 px-5 py-3 rounded transition duration-700 ease-in-out group-hover:block md:top-1/2 md:-translate-y-1/2 md:left-6 md:-translate-x-0">
               PORTFOLIO
             </span>
@@ -43,7 +46,7 @@ const Navbar = () => {
             to="/#contact"
             className="relative group-hover:text-red-500"
           >
-            <Mail />
+            <img src={mail} alt="Contact" />
             <span className="hidden absolute top-10 left-1/2 -translate-x-1/2 bg-sunglow-500 px-5 py-3 rounded transition duration-700 ease-in-out group-hover:block md:top-1/2 md:-translate-y-1/2 md:left-6 md:-translate-x-0">
               CONTACT
             </span>

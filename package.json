@@ -18,7 +18,6 @@
     "react-router-dom": "^6.8.1",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
-    "ts-react-feather-icons": "^1.0.0",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
