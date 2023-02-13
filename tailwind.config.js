@@ -4,24 +4,18 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        beat: {
-          "0%": { transform: "bg-dark-800" },
-          "50%": { transform: "bg-dark-100" },
-          "100%": { transform: "bg-dark-800" },
+        glide: {
+          "0%": { outerWidth: "0%" },
+          "25%": { outerWidth: "25%" },
+          "50%": { outerWidth: "50%" },
+          "75%": { outerWidth: "75%" },
+          "100%": { outerWidth: "100%" },
         },
       },
 
       animation: {
-        beat: "beat 5s ease-in-out infinite",
+        glide: "glide 5s ease-in-out",
       },
-
-      // backgroundImage: {
-      //   moody: {
-      //     "background-color": "rgb(0, 0, 0)",
-      //     "background-image":
-      //       "radial-gradient(at 73% 82%, rgb(0, 0, 0) 0, transparent 100%), radial-gradient(at 4% 75%, rgb(120, 53, 15) 0, transparent 89%), radial-gradient(at 100% 0%, rgb(0, 0, 0) 0, transparent 29%)",
-      //   },
-      // },
 
       colors: {
         dark: {

@@ -1,21 +1,18 @@
-import Bg from "../../images/Untitled-bg.png";
+import Bg from "../../../../assets/images/Untitled-bg-white.png";
 
 const About = () => {
   return (
-    <div className="relative h-screen">
-      <div>
-        <img
-          src={Bg}
-          alt="background"
-          className="absolute top-0 left-0 z-10 opacity-20 h-full w-full"
-        />
-      </div>
-      <div className="flex justify-center text-5xl mb-28 py-10">
-        <h1>ABOUT</h1>
+    <div
+      id="about"
+      style={{ backgroundImage: `url(${Bg})` }}
+      className="w-full h-full px-5 pb-10 pt-6 bg-no-repeat bg-cover md:px-48 md:h-screen"
+    >
+      <div className="flex justify-center text-3xl md-6 py-10 font-semibold md:text-5xl md:mb-12">
+        <h1>ABOUT ME</h1>
       </div>
 
-      <div className="grid grid-cols-2 gap-10 px-48">
-        <div className="w-80  space-y-5">
+      <div className="grid gap-y-7 bg-white/60 p-5 text-center md:grid-cols-2 md:text-start md:gap-x-10">
+        <div className="w-96  space-y-5">
           <h3 className="text-2xl font-semibold">
             Hi, I'm Mike, Nice to meet you.
           </h3>
@@ -34,32 +31,32 @@ const About = () => {
         </div>
 
         <div className="space-y-5">
-          <h3 className="text-2l font-semibold">My Skills</h3>
+          <h3 className="text-2xl font-semibold">My Skills</h3>
 
-          <ul className="grid grid-cols-4 justify-items-center items-center space-y-5">
-            <li className="p-2 bg-dark-100 text-white rounded-lg">
-              <div>HTML</div>
+          <ul className="grid grid-cols-4 text-center gap-5">
+            <li className="py-2 bg-dark-100 text-white rounded-lg">
+              <span>HTML</span>
             </li>
-            <li className="p-2 bg-dark-100 text-white rounded-lg">
-              <div>CSS</div>
+            <li className="py-2 bg-dark-100 text-white rounded-lg">
+              <span>CSS</span>
             </li>
-            <li className="p-2 bg-dark-100 text-white rounded-lg">
-              <div>Javascript</div>
+            <li className="py-2 bg-dark-100 text-white rounded-lg">
+              <span>Javascript</span>
             </li>
-            <li className="p-2 bg-dark-100 text-white rounded-lg">
-              <div>React</div>
+            <li className="py-2 bg-dark-100 text-white rounded-lg">
+              <span>React</span>
             </li>
-            <li className="p-2 bg-dark-100 text-white rounded-lg">
-              <div>GIT</div>
+            <li className="py-2 bg-dark-100 text-white rounded-lg">
+              <span>GIT</span>
             </li>
-            <li className="p-2 bg-dark-100 text-white rounded-lg">
-              <div>GitHub</div>
+            <li className="py-2 bg-dark-100 text-white rounded-lg">
+              <span>GitHub</span>
             </li>
-            <li className="p-2 bg-dark-100 text-white rounded-lg">
-              <div>TailwindCSS</div>
+            <li className="py-2 bg-dark-100 text-white rounded-lg">
+              <span>Tailwindcss</span>
             </li>
-            <li className="p-2 bg-dark-100 text-white rounded-lg">
-              <div>Typescript</div>
+            <li className="py-2 bg-dark-100 text-white rounded-lg">
+              <span>Typescript</span>
             </li>
           </ul>
         </div>

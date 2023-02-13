@@ -1,24 +1,20 @@
 import React from "react";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Hero from "./components/pages/Hero";
-import Navbar from "./components/pages/Navbar";
-import Portfolio from "./components/pages/Portfolio";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import BosCoffee from "./pages/projects/BosCoffee";
+import Flickr from "./pages/projects/Flickr";
+import Minecraft from "./pages/projects/Minecraft";
 
-function App() {
+const App = () => {
   return (
-    <div className="bg-gallery-100">
-      <div className="sticky top-44  z-10 w-32">
-        <Navbar />
-      </div>
-      <main className="relative -mt-72">
-        <Hero />
-        <About />
-        <Portfolio />
-        <Contact />
-      </main>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/bos-coffee" element={<BosCoffee />} />
+      <Route path="/minecraft" element={<Minecraft />} />
+      <Route path="/flickr" element={<Flickr />} />
+    </Routes>
   );
-}
+};
 
 export default App;
