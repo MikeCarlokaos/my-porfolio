@@ -8,10 +8,10 @@ const Contact = () => {
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_ooahi1r",
-      "template_705n4tf",
+      "service_atawt5n",
+      "template_die0i8x",
       e.currentTarget,
-      "9wYy5Htm45PW3P0pd"
+      "tnLg6RM6Wap9IFx9C"
     );
   };
 
