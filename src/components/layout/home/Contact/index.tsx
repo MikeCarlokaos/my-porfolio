@@ -8,10 +8,10 @@ const Contact = () => {
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_atawt5n",
-      "template_die0i8x",
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
       e.currentTarget,
-      "tnLg6RM6Wap9IFx9C"
+      process.env.REACT_APP_PUBLIC_KEY
     );
   };
 
@@ -19,22 +19,29 @@ const Contact = () => {
     <div
       id="contact"
       style={{ backgroundImage: `url(${Bg})` }}
-      className="w-full h-screen px-5 py-10 bg-no-repeat bg-cover md:px-48"
+      className="w-full h-screen px-5 py-10 bg-no-repeat bg-cover md:px-48 md:py-5"
     >
-      <div className="flex justify-center text-3xl py-10 font-semibold md:text-5xl">
+      <div className="flex justify-center text-3xl py-5 font-semibold md:text-5xl md:py-10">
         <h1>CONTACT</h1>
       </div>
-      <div className="w-full text-center">
+      {/* <div className="w-full text-center">
         <h3 className="textt-lg tracking-wide bg-white/60 md:text-xl">
           Feel free to contact me thru my contacts below and I will get back to
           you as soon as possible.
         </h3>
-      </div>
-      <div className="w-full h-full p-10 text-center mt-6 md:mt-10">
+      </div> */}
+      <div className="w-full h-full text-center">
         <form
           className="w-96 flex flex-col bg-slate-200 my-0 mx-auto space-y-2 p-6 rounded-md"
           onSubmit={sendEmail}
         >
+          <label htmlFor="nameFrom">Name:</label>
+          <input
+            type="text"
+            name="name_from"
+            id="nameFrom"
+            className="border-none rounded-md p-2.5 resize-y outline-none box-content border-solid border-b-2 border-transparent"
+          />
           <label htmlFor="emailFrom">Email:</label>
           <input
             type="text"
@@ -43,13 +50,18 @@ const Contact = () => {
             className="border-none rounded-md p-2.5 resize-y outline-none box-content border-solid border-b-2 border-transparent"
             placeholder="person@example.com"
           />
+
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"
             id="message"
             className="border-none rounded-md p-2.5 resize-y outline-none box-content border-solid border-b-2 border-transparent"
           ></textarea>
-          <button type="submit" className="bg-sunglow-500 rounded-md p-2">
+
+          <button
+            type="submit"
+            className="bg-sunglow-500 rounded-md p-2 transition duration-300 ease-in-out hover:bg-black/80 hover:text-sunglow-500 hover:font-bold active:bg-white"
+          >
             Send
           </button>
         </form>
