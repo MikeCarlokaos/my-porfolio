@@ -21,7 +21,7 @@ const Contact = () => {
       style={{ backgroundImage: `url(${Bg})` }}
       className="w-full h-screen px-5 py-10 bg-no-repeat bg-cover md:px-48 md:py-5"
     >
-      <div className="flex justify-center text-3xl py-5 font-semibold md:text-5xl md:py-10">
+      <div className="flex justify-center text-3xl py-10 font-semibold md:text-5xl">
         <h1>CONTACT</h1>
       </div>
       {/* <div className="w-full text-center">
