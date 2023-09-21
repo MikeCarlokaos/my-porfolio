@@ -32,7 +32,7 @@ const Contact = () => {
       </div> */}
       <div className="w-full h-full text-center">
         <form
-          className="w-96 flex flex-col bg-slate-200 my-0 mx-auto space-y-2 p-6 rounded-md"
+          className="w-full flex flex-col bg-slate-200 my-0 mx-auto space-y-2 p-6 rounded-md md:max-w-[600px]"
           onSubmit={sendEmail}
         >
           <label htmlFor="nameFrom">Name:</label>
