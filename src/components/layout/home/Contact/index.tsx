@@ -30,7 +30,7 @@ const Contact = () => {
           you as soon as possible.
         </h3>
       </div> */}
-      <div className="w-full h-full text-center">
+      <div className="w-full h-full text-center mt-10 md:mt-0">
         <form
           className="w-full flex flex-col bg-slate-200 my-0 mx-auto space-y-2 p-6 rounded-md md:max-w-[600px]"
           onSubmit={sendEmail}
