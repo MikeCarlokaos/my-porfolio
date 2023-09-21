@@ -1,4 +1,5 @@
 import Bg from "../../../../assets/images/Untitled-bg-white.png";
+import Resume from "./resume.pdf";
 
 const About = () => {
   return (
@@ -59,8 +60,12 @@ const About = () => {
               <span>Typescript</span>
             </li>
           </ul>
-          <p className="pt-10">Here is my resume for more info on me.</p>
-          <a target="_blank" href="Resume.pdf">
+          <p className="pt-10">More info on me below.</p>
+          <a
+            target="_blank"
+            href={Resume}
+            className="flex text-lg font-semibold hover:text-sunglow-500"
+          >
             Resume
           </a>
         </div>
