@@ -31,6 +31,15 @@ const Contact = () => {
         </h3>
       </div> */}
       <div className="w-full h-full text-center mt-10 md:mt-0">
+        <span className="text-lg font-semibold">
+          email:{" "}
+          <a
+            href="mailto:kaosvioge@gmail.com"
+            className="hover:text-sunglow-500"
+          >
+            kaosvioge@gmail.com
+          </a>
+        </span>
         <form
           className="w-full flex flex-col bg-slate-200 my-0 mx-auto space-y-2 p-6 rounded-md md:max-w-[600px]"
           onSubmit={sendEmail}
@@ -65,6 +74,7 @@ const Contact = () => {
             Send
           </button>
         </form>
+
         {/* <span className="text-lg font-semibold">
           email: kaosvioge@gmail.com
         </span>

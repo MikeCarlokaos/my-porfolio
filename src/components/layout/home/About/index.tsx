@@ -59,6 +59,10 @@ const About = () => {
               <span>Typescript</span>
             </li>
           </ul>
+          <p className="pt-10">Here is my resume for more info on me.</p>
+          <a target="_blank" href="Resume.pdf">
+            Resume
+          </a>
         </div>
       </div>
     </div>
