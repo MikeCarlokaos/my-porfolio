@@ -1,5 +1,5 @@
 import Bg from "../../../../assets/images/Untitled-bg-white.png";
-import Resume from "./resume.pdf";
+import Resume from "../../../../resume.pdf";
 
 const About = () => {
   return (
