@@ -64,6 +64,7 @@ const About = () => {
           <span className="w-full flex justify-center">
             <a
               target="_blank"
+              rel="noreferrer"
               href={Resume}
               className="w-36 py-2 px-5 text-center text-white text-lg font-semibold bg-dark-100 rounded-md hover:bg-sunglow-500/40 hover:text-black active:bg-sunglow-500"
             >
